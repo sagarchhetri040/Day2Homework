@@ -1,0 +1,37 @@
+body{
+    height: 500vh;
+}
+.container{
+    height: 15vh;
+}
+.navContainer{
+    background-color: rgb(7, 158, 204) ;
+    color: white;
+    height: 8vh;
+    padding-top: 0.5em;
+    font-size: larger;
+    display: flex;
+    justify-content: space-evenly
+
+}
+.homeButton{
+    padding-bottom: 0.4em;
+}
+.carouselContainer{
+    height: 30%;
+    border: solid black;
+}
+.cardTitleBox{
+    /* border: solid black; */
+    padding-left: 2ch;
+    padding-top: 2ch;;
+    height: 15vh;
+    width: 100%
+}
+.cardBox{
+    /* border: solid black; */
+    justify-content:space-around;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+}

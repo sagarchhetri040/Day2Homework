@@ -80,6 +80,3 @@ var averageOfAverages = sumAverages/2
 console.log("The average of first array is: " + average1)
 console.log("The average of second array is: " + average2)
 console.log("The average of above averages is: " + averageOfAverages)
-
-
-

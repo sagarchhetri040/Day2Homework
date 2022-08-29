@@ -1,0 +1,105 @@
+body {
+    background-color: green;
+    color: lime;
+    font-family: 'Courier New', Courier, monospace;
+    height: 150vh
+}
+
+.mainBox {
+    /* border: solid ; */
+    height: 70vh;
+    width: 100%;
+    ;
+}
+
+.navBox {
+    background-color: green;
+    /* border: solid black; */
+    height: 10%;
+    width: 99%;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.navTab {
+    border: solid black;
+    height: 15px;
+    width: 120px;
+    padding: 5px;
+    ;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    border-radius: 22px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.navTab:hover {
+    border: solid lime;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 22px;
+    color: lime;
+    text-align: center;
+
+}
+.titleBox {
+    /* border: solid black; */
+    background-color: rgb(95, 155, 4);
+    height: 10%;
+    text-align: center;
+}
+
+.movieBox {
+    /* border: solid black; */
+    height: 88%;
+    width: 99%;
+
+}
+
+.moviePoster {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.hoverDisplay {
+    display: block;
+}
+
+.navTab:hover + .hoverDisplay {
+    display: block;
+    color: red;
+}
+.moviePara{
+    border-color: solid black;
+    background-color:  rgb(147, 226, 147) ;
+    height: 95%;
+    width: 80%;
+    justify-content: center;
+    color: black;
+    text-align: center;
+}
+.otherPics{
+    height: 50%;
+    width: 100%;
+    border: solid;
+    display: flex;
+}
+.movie1{
+    height: 100%;
+    width: 33%; 
+    border: solid;
+}
+.movie2{
+    height: 100%;
+    width: 33%; 
+    border: solid;
+}
+.movie3{
+    height: 100%;
+    width: 33%; 
+    border: solid;
+}
+   

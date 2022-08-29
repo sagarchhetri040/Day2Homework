@@ -1,0 +1,61 @@
+body{
+    background-color:black;
+    color:lime;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.parentContainer{
+    border:none;
+    padding:12px;
+    height:32vh;
+    width:100%;
+    padding-left:25%;
+
+}
+
+.luigi{
+    width:250px;
+    height:100%;
+    border:solid white;
+}
+.luigiText{
+    /* font-size:42px; */
+}
+.textBox{
+    display:none;
+    padding:15px;
+}
+.coin{
+    height:90px;
+    width:90px;
+    border-radius:50%;
+}
+.midContainer{
+    border: solid peru;
+    height: 42vh;
+    margin-top: 20% ;
+}
+.morn{
+    width: block;
+    width: 100%
+}
+.noon{
+    display: none;
+    width: 100%
+}
+.night{
+    display: none;
+    width: 100%;
+}
+.txt{
+    display: block;
+    padding: 65px;
+    font-size: 65px;
+    text-align: center;
+}
+.ntxt{
+    display: none;
+}
+.ngtxt {
+    display: none;
+}
